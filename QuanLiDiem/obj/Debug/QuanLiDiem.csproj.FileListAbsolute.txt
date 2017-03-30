@@ -1,0 +1,12 @@
+D:\QuanLiDiem\QuanLiDiem\bin\Debug\QuanLiDiem.exe.config
+D:\QuanLiDiem\QuanLiDiem\bin\Debug\QuanLiDiem.exe
+D:\QuanLiDiem\QuanLiDiem\bin\Debug\QuanLiDiem.pdb
+D:\QuanLiDiem\QuanLiDiem\obj\Debug\QuanLiDiem.csprojResolveAssemblyReference.cache
+D:\QuanLiDiem\QuanLiDiem\obj\Debug\QuanLiDiem.Properties.Resources.resources
+D:\QuanLiDiem\QuanLiDiem\obj\Debug\QuanLiDiem.csproj.GenerateResource.Cache
+D:\QuanLiDiem\QuanLiDiem\obj\Debug\QuanLiDiem.exe
+D:\QuanLiDiem\QuanLiDiem\obj\Debug\QuanLiDiem.pdb
+D:\QuanLiDiem\QuanLiDiem\obj\Debug\QuanLiDiem.frmLogin.resources
+D:\QuanLiDiem\QuanLiDiem\obj\Debug\QuanLiDiem.frmHethong.resources
+D:\QuanLiDiem\QuanLiDiem\obj\Debug\QuanLiDiem.Tinhdiem.resources
+D:\QuanLiDiem\QuanLiDiem\obj\Debug\QuanLiDiem.Lopsinhvien.resources

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLD">
+  <DataContextMoniker Name="/QLDDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3fecad20-f0f5-4fe7-81cf-091e3f4d92fb" absoluteBounds="6.25, 0.875, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/QLDDataContext/DiemHP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="843e1c42-ae51-418d-9016-20a2e2e95b39" absoluteBounds="6.265, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d8010095-2e7f-4104-8024-1853dc023f49" absoluteBounds="3.5, 4.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QLDDataContext/SinhVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6d254656-efdc-4e82-84d0-b69ca4a35117" absoluteBounds="3.515, 5.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2bc0d29-d580-4d25-b00f-ac738480f4bd" absoluteBounds="3.5, 1, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QLDDataContext/MonHP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="60766b07-d0d8-4c0e-a7cf-f4fc5089186f" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="06adc90c-90a2-4e35-88f5-a11320291508" absoluteBounds="0.75, 5.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/QLDDataContext/Lop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c52a2c4-9080-41ab-831c-65cbf7eaf4d5" absoluteBounds="0.765, 5.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f92eeec8-58ae-4dd2-88f0-a47adbc83c15" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/QLDDataContext/HocKy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f526e8e7-669c-43cd-b041-46bdc1753db1" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 5.82774983723958); (7.25 : 5.82774983723958); (7.25 : 2.64589680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDDataContext/SinhVien/SinhVien_DiemHP" />
+      <nodes>
+        <classShapeMoniker Id="d8010095-2e7f-4104-8024-1853dc023f49" />
+        <classShapeMoniker Id="3fecad20-f0f5-4fe7-81cf-091e3f4d92fb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.78929768880208); (6.25 : 1.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDDataContext/MonHP/MonHP_DiemHP" />
+      <nodes>
+        <classShapeMoniker Id="f2bc0d29-d580-4d25-b00f-ac738480f4bd" />
+        <classShapeMoniker Id="3fecad20-f0f5-4fe7-81cf-091e3f4d92fb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.72199625651042); (3.5 : 5.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDDataContext/Lop/Lop_SinhVien" />
+      <nodes>
+        <classShapeMoniker Id="06adc90c-90a2-4e35-88f5-a11320291508" />
+        <classShapeMoniker Id="d8010095-2e7f-4104-8024-1853dc023f49" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDDataContext/HocKy/HocKy_MonHP" />
+      <nodes>
+        <classShapeMoniker Id="f92eeec8-58ae-4dd2-88f0-a47adbc83c15" />
+        <classShapeMoniker Id="f2bc0d29-d580-4d25-b00f-ac738480f4bd" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
